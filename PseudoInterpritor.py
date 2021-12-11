@@ -13,20 +13,11 @@ except ModuleNotFoundError:
 
 
 def main():
+    prompt = '-'
     while True:
-        line = input('|-- ')
-        x = pseudocheck(line)
-
-
-
-def pseudocheck(script):
-    """
-    Checks if script in pseudocode works
-    Returns -1 if no error
-    Returns a naturel number pointing to the first charector in the syntax error
-    """
-    n = 0
-    while n < len(script): pass
+        args = input(prompt * 3 + ' ').split()
+        
+        for n in len(args)
 
 
 
